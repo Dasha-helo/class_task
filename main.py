@@ -1,38 +1,24 @@
-from  math import  pi
-class Figure:
-    def __init__(self): #p=(a+b+c)/2 sqrt(p*(p-a)*(p-b)*(p-c))
-        pass
+class Student:
+    def __init__(self, name, grades):
+     self.name=name
+     self.grades=grades
 
-    def calc_area(self):
-        pass
+    def add_grads(self,grade,subject):
+        self.gradts[subject].append(grade)
+        return self.grades[subject]
+    def avg_subj_grades(self,subject):
+        avg = 0
+        for i in range(len(self.grades[subject]))
+            avg +=self.grades[subject][i]
+        return avg/len(self.grades[subject])
 
-class Triangle(Figure):
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+    def avg_grades(self):
+        avg = 0
+        count = 0
+        for i in self.grades:
+        for i in range(len(self.grades[i]))
+            return avg / len(self.grades[subject])
 
-    def calc_area(self):
-        p = (self.a + self.b + self.c) / 2
-        return (p*(p-self.a)*(p-self.b)*(p-self.c))**0.5
+            avg += self.grades[i][j]
 
-class Circle(Figure):
-    def __init__(self,radius):
-        self.radius=radius
-    def calc_area(self):
-        return
-
-My_triangle = Triangle(3,4,5)
-print(My_triangle.calc_area())
-
-class Triangle(Figure):
-    def __init__(self, a, b, c,):
-        self.a = a
-        self.b = b
-        self.c = c
-        self.d = d
-    def calc_area(self):
-        p = (self.a + self.b + self.c+self.d) / 2
-        return (p*(p-self.a)*(p-self.b)*(p-self.c))**0.5
-
-
+    cou
